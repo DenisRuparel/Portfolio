@@ -502,6 +502,9 @@ textarea {
         width: 45vh;
         font-size: 2rem;
     }
+    .footer{
+        width: auto;
+    }
 }
 
 @media (max-width: 450px){

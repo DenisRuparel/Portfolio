@@ -503,7 +503,7 @@ textarea {
         font-size: 2rem;
     }
     .footer{
-        width: auto;
+        width: 100%;
     }
 }
 

@@ -470,6 +470,9 @@ textarea {
     .home, .about-items{
         flex-direction: column;
     }
+    .about-text{
+        width: 20vh;
+    }
     .home img{
         width: 80vh;
     }

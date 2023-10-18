@@ -482,6 +482,9 @@ textarea {
     .heading{
         font-size: 3rem;
     }
+    .footer{
+        width: 100%;
+    }
 }
 
 @media (max-width: 620px){

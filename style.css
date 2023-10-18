@@ -471,7 +471,7 @@ textarea {
         flex-direction: column;
     }
     .about-text{
-        width: 20vh;
+        width: 30vh;
     }
     .home img{
         width: 80vh;
@@ -499,6 +499,7 @@ textarea {
     }
     .about-text p{
         color: #fff;
+        width: 30vh;
         font-size: 1.5rem;
     }
 }

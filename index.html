@@ -227,7 +227,7 @@
                 <div class="portfolio-layer">
                     <h4>Badges in HackerRank</h4>
                     <p>
-                        Recieved 4 Star in Java, 3 star in C++
+                        Recieved 4 Star in Java, 4 star in C++
                     </p>
                     <a href="https://www.hackerrank.com/DenisRuparel?hr_r=1" target="_blank">
                         <i class='bx bx-link-external'></i>
@@ -255,9 +255,7 @@
 
     <!-- Footer Section -->
     <Footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by <span>Denis Ruparel</span> | All Right Reserved</p>
-        </div>
+        <div class="footer-text" id="copyyear"></div>
 
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i> </a>
@@ -273,4 +271,8 @@
     <!-- Js Script File -->
     <script src="script.js"></script>
 </body>
+<script>
+    const year = new Date().getFullYear();
+    document.getElementById('copyyear').innerHTML = 'Copyright ' + '&copy; ' + year + ' by <span>Denis Ruparel</span> | All Right Reserved';
+</script>
 </html>
